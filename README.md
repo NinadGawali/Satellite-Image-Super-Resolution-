@@ -111,9 +111,12 @@ The generated images will be saved in the specified output directory.
 ### 📊 Results and Comparison
 
 Our fine-tuned Real-ESRGAN demonstrates superior performance in reconstructing fine details and textures compared to other models.  
-Given image:
-![LR img](https://raw.githubusercontent.com/NinadGawali/Satellite-Image-Super-Resolution-/refs/heads/main/LR/P0001.png)
-Constructed image:
+
+**Given image:**  
+
+![LR img](https://raw.githubusercontent.com/NinadGawali/Satellite-Image-Super-Resolution-/refs/heads/main/LR/P0001.png)  
+**Constructed image:**  
+
 ![Gen img](https://raw.githubusercontent.com/NinadGawali/Satellite-Image-Super-Resolution-/refs/heads/main/results/P0001_rlt.png)
 
 For more visual examples from all tested models, please check the results/ directory.
