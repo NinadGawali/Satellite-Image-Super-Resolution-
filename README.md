@@ -112,6 +112,18 @@ The generated images will be saved in the specified output directory.
 
 Our fine-tuned Real-ESRGAN demonstrates superior performance in reconstructing fine details and textures compared to other models.  
 
+### Performance Comparison Table
+
+| Model                     | Min PSNR | Max PSNR | Avg PSNR |
+| :------------------------ | :------: | :------: | :------: |
+| **Real-ESRGAN (Fine-tuned)** |  18.81   |  44.40   | **30.86** |
+| SRCNN                     |  22.18   |  29.56   |  24.04   |
+| LAPSRN                    |  23.12   |  30.47   |  24.53   |
+| RCAN                      |  27.12   |  35.72   |  28.34   |
+| SRGAN                     |  22.56   |  30.24   |  26.83   |
+
+Performance comparison of different super-resolution models based on PSNR metrics.
+
 **Given image:**  
 
 ![LR img](https://raw.githubusercontent.com/NinadGawali/Satellite-Image-Super-Resolution-/refs/heads/main/LR/P0001.png)  
